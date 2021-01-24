@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0;
+  position: relative;
+  border-radius: 10px;
+  background-size: cover;
+}
+html{padding: 0;display: table-cell; vertical-align: middle;scroll-behavior: smooth; height: auto;margin: auto;}
+.container{width:1100px;background-color: white;display: flex;align-items: center;
+margin: auto auto;height: auto;display: block; border-radius: 10px;margin-top: 2%;padding-top: 10px;padding-left: 50px;
+padding-right: 50px;text-align: center;margin-bottom: 30px;padding-bottom:50px;}
+h1{color: red;padding-top: 30px}
+.text,p{text-align: center;display: block;}
+.ssylka{text-align: center;width: 300px;height: 100px;
+margin: 40px auto 0 auto;color: white;font-size: 50px;display: block;box-shadow: 2px 2px 5px 0 black;display: flex;
+justify-content: center; align-items: center;border-radius: 10px;background-color: Red;
+text-decoration: none;font-weight: bold;font-style: italic;}
+table {
+  border-collapse: collapse;
+  border-style: dotted;
+  margin-top: 50px;
+  visibility: hidden;
+}
+td,th{border: 3px dotted;}
+td{padding: 10px}
+.name{color: black;text-decoration: none;font-size: 19px;transition: all 0.2s ease-in-out;}
+.name:hover{opacity: .5}
+.ssylka:hover{background-color:FireBrick;}
+.ssylka:active{background-color:DarkRed;transform: translateY(2px);}
+
+.visible {
+  visibility: visible;
+}
